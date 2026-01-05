@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="DELETE">
+        <operation>read</operation>
+        <source_scope display_value="Lab AI Knowledge Companion">26a4fa2a2b423a906bcdf559f291bf5d</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-12-29 13:59:00</sys_created_on>
+        <sys_id>9502276a3bca72901249feb643e45a23</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_di_key_group</sys_name>
+        <sys_package display_value="Lab AI Knowledge Companion" source="x_snc_lab_ai_kno_0">26a4fa2a2b423a906bcdf559f291bf5d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Lab AI Knowledge Companion">26a4fa2a2b423a906bcdf559f291bf5d</sys_scope>
+        <sys_update_name>sys_scope_privilege_9502276a3bca72901249feb643e45a23</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-12-29 13:59:00</sys_updated_on>
+        <target_name>sys_di_key_group</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>sys_db_object</target_type>
+    </sys_scope_privilege>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Lab AI Knowledge Companion">26a4fa2a2b423a906bcdf559f291bf5d</application>
+        <file_path/>
+        <instance_id>d655b87edb400214f697684e13961904</instance_id>
+        <instance_name>crwfhackathon4</instance_name>
+        <name>sys_scope_privilege_9502276a3bca72901249feb643e45a23</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>read</operation><source_scope display_value="Lab AI Knowledge Companion">26a4fa2a2b423a906bcdf559f291bf5d</source_scope><status>allowed</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2025-12-29 13:59:00</sys_created_on><sys_id>9502276a3bca72901249feb643e45a23</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sys_di_key_group</sys_name><sys_package display_value="Lab AI Knowledge Companion" source="x_snc_lab_ai_kno_0">26a4fa2a2b423a906bcdf559f291bf5d</sys_package><sys_policy/><sys_scope display_value="Lab AI Knowledge Companion">26a4fa2a2b423a906bcdf559f291bf5d</sys_scope><sys_update_name>sys_scope_privilege_9502276a3bca72901249feb643e45a23</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2025-12-29 13:59:00</sys_updated_on><target_name>sys_di_key_group</target_name><target_scope display_value="Global">global</target_scope><target_type>sys_db_object</target_type></sys_scope_privilege></record_update>]]></payload>
+        <payload_hash>-1929756975</payload_hash>
+        <record_name>sys_di_key_group</record_name>
+        <reverted_from/>
+        <source>c12eb0fa478002106dce524fe16d4380</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-12-29 13:59:01</sys_created_on>
+        <sys_id>5502276a3bca72901249feb643e45a26</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19b6a67b8c50000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-12-29 13:59:01</sys_updated_on>
+        <type>Cross scope privilege</type>
+        <update_guid>d102276aedca72905bc0e9db63ebe825</update_guid>
+        <update_guid_history>d102276aedca72905bc0e9db63ebe825:-1929756975</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2026-01-05 20:21:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_scope_privilege">sys_scope_privilege</sys_db_object>
+        <sys_id>23d077b78152424899a34e34a57d3791</sys_id>
+        <sys_metadata>9502276a3bca72901249feb643e45a23</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_di_key_group</sys_name>
+        <sys_package display_value="Lab AI Knowledge Companion" source="x_snc_lab_ai_kno_0">26a4fa2a2b423a906bcdf559f291bf5d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Lab AI Knowledge Companion">26a4fa2a2b423a906bcdf559f291bf5d</sys_scope>
+        <sys_scope_delete display_value="">130e489d6c344ec08e433139d11dc400</sys_scope_delete>
+        <sys_update_name>sys_scope_privilege_9502276a3bca72901249feb643e45a23</sys_update_name>
+        <sys_update_version display_value="sys_scope_privilege_9502276a3bca72901249feb643e45a23">5502276a3bca72901249feb643e45a26</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-01-05 20:21:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

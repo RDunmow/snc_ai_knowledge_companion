@@ -3,8 +3,12 @@
         <element label="AI Rewritten Article" max_length="4000" name="ai_rewritten_article" type="html"/>
         <element label="Original Heading" max_length="1000" name="original_heading" type="string"/>
         <element label="AI Suggestions" max_length="4000" name="ai_suggestions" type="string"/>
+        <element label="Knowledge Article" max_length="32" name="knowledge_article" reference="kb_knowledge" type="reference"/>
         <element label="AI Article Summary" max_length="1000" name="ai_article_summary" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Original Article" max_length="4000" name="original_article" type="html"/>
+        <index name="index">
+            <element name="knowledge_article"/>
+        </index>
     </element>
 </database>

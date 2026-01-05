@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="5c1ab4452b9af2506bcdf559f291bfea" sys_domain="global" table="x_snc_lab_ai_kno_0_article" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-05 20:10:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>101ab4452b9af2506bcdf559f291bff1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_lab_ai_kno_0_article" name="x_snc_lab_ai_kno_0_article" sys_domain="global" view="Default view">5c1ab4452b9af2506bcdf559f291bfea</sys_ui_form>
+            <sys_ui_section caption="Knowledge Article" display_value="Knowledge Article" name="x_snc_lab_ai_kno_0_article" sys_domain="global" view="Default view">f78007aa2bc23a906bcdf559f291bff3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-05 20:10:02</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-05 20:10:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>581ab4452b9af2506bcdf559f291bff2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_lab_ai_kno_0_article" name="x_snc_lab_ai_kno_0_article" sys_domain="global" view="Default view">5c1ab4452b9af2506bcdf559f291bfea</sys_ui_form>
+            <sys_ui_section caption="Original Article" display_value="Original Article" name="x_snc_lab_ai_kno_0_article" sys_domain="global" view="Default view">1c1ab4452b9af2506bcdf559f291bfc2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-05 20:10:02</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-05 20:11:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b55a30852b9af2506bcdf559f291bf01</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_lab_ai_kno_0_article" name="x_snc_lab_ai_kno_0_article" sys_domain="global" view="Default view">5c1ab4452b9af2506bcdf559f291bfea</sys_ui_form>
+            <sys_ui_section caption="AI Summary and Suggestion" display_value="AI Summary and Suggestion" name="x_snc_lab_ai_kno_0_article" sys_domain="global" view="Default view">395afc452b9af2506bcdf559f291bfee</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-05 20:11:14</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-05 20:11:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3d5a30852b9af2506bcdf559f291bf08</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_lab_ai_kno_0_article" name="x_snc_lab_ai_kno_0_article" sys_domain="global" view="Default view">5c1ab4452b9af2506bcdf559f291bfea</sys_ui_form>
+            <sys_ui_section caption="AI Enhanced Article" display_value="AI Enhanced Article" name="x_snc_lab_ai_kno_0_article" sys_domain="global" view="Default view">b15afc452b9af2506bcdf559f291bff0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-05 20:11:14</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_snc_lab_ai_kno_0_article</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-05 20:10:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5c1ab4452b9af2506bcdf559f291bfea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_lab_ai_kno_0_article</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Lab AI Knowledge Companion" source="x_snc_lab_ai_kno_0">26a4fa2a2b423a906bcdf559f291bf5d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Lab AI Knowledge Companion">26a4fa2a2b423a906bcdf559f291bf5d</sys_scope>
+            <sys_update_name>sys_ui_form_sections_5c1ab4452b9af2506bcdf559f291bfea</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-05 20:10:02</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
