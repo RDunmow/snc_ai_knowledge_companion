@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="2b8007aa2bc23a906bcdf559f291bfe9" label="article" max_length="40" name="x_snc_lab_ai_kno_0_article" type="collection">
-        <element label="AI Rewritten Article" max_length="4000" name="ai_rewritten_article" type="html"/>
-        <element label="Original Heading" max_length="1000" name="original_heading" type="string"/>
-        <element label="AI Suggestions" max_length="4000" name="ai_suggestions" type="string"/>
+        <element label="Readability Desciption" max_length="4000" name="readability_desciption" type="string"/>
+        <element label="Original Article" max_length="4000" name="original_article" type="html"/>
         <element label="Knowledge Article" max_length="32" name="knowledge_article" reference="kb_knowledge" type="reference"/>
-        <element label="AI Article Summary" max_length="1000" name="ai_article_summary" type="string"/>
+        <element label="Readability Score" max_length="40" name="readability_score" type="integer"/>
+        <element label="AI Suggestions" max_length="4000" name="ai_suggestions" type="string"/>
+        <element label="AI Rewritten Article" max_length="4000" name="ai_rewritten_article" type="html"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element choice="3" label="AI Status" max_length="40" name="ai_status" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Summarise &amp; Suggest" sequence="1" value="summarise_suggest"/>
-                <element inactive_on_update="false" label="New" sequence="0" value="new"/>
                 <element inactive_on_update="false" label="Complete" sequence="3" value="complete"/>
                 <element inactive_on_update="false" label="Rewrite" sequence="2" value="rewrite"/>
+                <element inactive_on_update="false" label="New" sequence="0" value="new"/>
+                <element inactive_on_update="false" label="Summarise &amp; Suggest" sequence="1" value="summarise_suggest"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element label="Original Article" max_length="4000" name="original_article" type="html"/>
+        <element label="Original Heading" max_length="1000" name="original_heading" type="string"/>
+        <element label="AI Article Summary" max_length="1000" name="ai_article_summary" type="string"/>
         <index name="index">
             <element name="knowledge_article"/>
         </index>

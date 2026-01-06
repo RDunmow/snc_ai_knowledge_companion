@@ -1,30 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="AI Summary and Suggestion" section_id="395afc452b9af2506bcdf559f291bfee" sys_domain="global" table="x_snc_lab_ai_kno_0_article" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>ai_article_summary</element>
+            <element>readability_score</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-01-05 20:11:14</sys_created_on>
-            <sys_id>795a30852b9af2506bcdf559f291bf1b</sys_id>
+            <sys_created_on>2026-01-06 20:49:45</sys_created_on>
+            <sys_id>fbbcca592b963a506cdcf6d4f291bf01</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="AI Summary and Suggestion" display_value="AI Summary and Suggestion" name="x_snc_lab_ai_kno_0_article" sys_domain="global" view="Default view">395afc452b9af2506bcdf559f291bfee</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-01-05 20:11:14</sys_updated_on>
+            <sys_updated_on>2026-01-06 20:49:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>readability_desciption</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-06 20:49:45</sys_created_on>
+            <sys_id>ffbcca592b963a506cdcf6d4f291bf02</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="AI Summary and Suggestion" display_value="AI Summary and Suggestion" name="x_snc_lab_ai_kno_0_article" sys_domain="global" view="Default view">395afc452b9af2506bcdf559f291bfee</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-06 20:49:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ai_article_summary</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-06 20:49:45</sys_created_on>
+            <sys_id>bbbcca592b963a506cdcf6d4f291bf03</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="AI Summary and Suggestion" display_value="AI Summary and Suggestion" name="x_snc_lab_ai_kno_0_article" sys_domain="global" view="Default view">395afc452b9af2506bcdf559f291bfee</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-06 20:49:45</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>ai_suggestions</element>
-            <position>1</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-01-05 20:11:14</sys_created_on>
-            <sys_id>355a30852b9af2506bcdf559f291bf1c</sys_id>
+            <sys_created_on>2026-01-06 20:49:45</sys_created_on>
+            <sys_id>77bcca592b963a506cdcf6d4f291bf04</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="AI Summary and Suggestion" display_value="AI Summary and Suggestion" name="x_snc_lab_ai_kno_0_article" sys_domain="global" view="Default view">395afc452b9af2506bcdf559f291bfee</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-01-05 20:11:14</sys_updated_on>
+            <sys_updated_on>2026-01-06 20:49:45</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
