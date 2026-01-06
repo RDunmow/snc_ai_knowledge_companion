@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_nowassist_skill_config">
+    <sn_nowassist_skill_config action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <description><![CDATA[Read the knowledge article body and header and provide a short summary in under 4000 characters as well as make suggestions to improve the readability of the article. Provide a readability score between 1 and 10, where 1 meaning this needs a complete rewrite and 10 means the article requires no further work.]]></description>
+        <edited_in_nask>false</edited_in_nask>
+        <in_product_active>false</in_product_active>
+        <in_product_roles/>
+        <internal_name>summarise_suggest_kb_article.ccfeb89d2b12b6506bcdf559f291bfac</internal_name>
+        <is_template>false</is_template>
+        <name>Summarise Suggest KB Article</name>
+        <nap_skill_applicability/>
+        <order>100</order>
+        <parent/>
+        <skill_family display_value="AI Knowledge Companion App">b139c1592b92b6506bcdf559f291bf5e</skill_family>
+        <skill_id>ffeeb89d2b12b6506bcdf559f291bf6c</skill_id>
+        <skill_table>sys_one_extend_capability</skill_table>
+        <state>1</state>
+        <success_message/>
+        <sys_class_name>sn_nowassist_skill_config</sys_class_name>
+        <sys_created_by>richard.dunmow@snc</sys_created_by>
+        <sys_created_on>2026-01-06 15:09:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ccfeb89d2b12b6506bcdf559f291bfac</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Summarise Suggest KB Article</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Lab AI Knowledge Companion" source="x_snc_lab_ai_kno_0">26a4fa2a2b423a906bcdf559f291bf5d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Lab AI Knowledge Companion">26a4fa2a2b423a906bcdf559f291bf5d</sys_scope>
+        <sys_update_name>sn_nowassist_skill_config_ccfeb89d2b12b6506bcdf559f291bfac</sys_update_name>
+        <sys_updated_by>richard.dunmow@snc</sys_updated_by>
+        <sys_updated_on>2026-01-06 16:02:35</sys_updated_on>
+    </sn_nowassist_skill_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=ccfeb89d2b12b6506bcdf559f291bfac"/>
+</record_update>

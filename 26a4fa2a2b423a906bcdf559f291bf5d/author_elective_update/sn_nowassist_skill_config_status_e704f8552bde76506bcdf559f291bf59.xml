@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_nowassist_skill_config_status">
+    <sn_nowassist_skill_config_status action="DELETE">
+        <active>false</active>
+        <in_mobile_active>false</in_mobile_active>
+        <in_mobile_roles/>
+        <in_product_active>false</in_product_active>
+        <in_product_roles/>
+        <skill_config display_value="Summarise Suggest Knowledge">6704f8552bde76506bcdf559f291bf55</skill_config>
+        <sys_class_name>sn_nowassist_skill_config_status</sys_class_name>
+        <sys_created_by>richard.dunmow@snc</sys_created_by>
+        <sys_created_on>2026-01-06 14:22:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path/>
+        <sys_id>e704f8552bde76506bcdf559f291bf59</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Lab AI Knowledge Companion" source="x_snc_lab_ai_kno_0">26a4fa2a2b423a906bcdf559f291bf5d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Lab AI Knowledge Companion">26a4fa2a2b423a906bcdf559f291bf5d</sys_scope>
+        <sys_update_name>sn_nowassist_skill_config_status_e704f8552bde76506bcdf559f291bf59</sys_update_name>
+        <sys_updated_by>richard.dunmow@snc</sys_updated_by>
+        <sys_updated_on>2026-01-06 14:22:14</sys_updated_on>
+    </sn_nowassist_skill_config_status>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Lab AI Knowledge Companion">26a4fa2a2b423a906bcdf559f291bf5d</application>
+        <file_path/>
+        <instance_id>d655b87edb400214f697684e13961904</instance_id>
+        <instance_name>crwfhackathon4</instance_name>
+        <name>sn_nowassist_skill_config_status_e704f8552bde76506bcdf559f291bf59</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_nowassist_skill_config_status"><sn_nowassist_skill_config_status action="INSERT_OR_UPDATE"><active>false</active><in_mobile_active>false</in_mobile_active><in_mobile_roles/><in_product_active>false</in_product_active><in_product_roles/><skill_config display_value="Summarise Suggest Knowledge">6704f8552bde76506bcdf559f291bf55</skill_config><sys_class_name>sn_nowassist_skill_config_status</sys_class_name><sys_created_by>richard.dunmow@snc</sys_created_by><sys_created_on>2026-01-06 14:22:14</sys_created_on><sys_domain>global</sys_domain><sys_domain_path/><sys_id>e704f8552bde76506bcdf559f291bf59</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Lab AI Knowledge Companion" source="x_snc_lab_ai_kno_0">26a4fa2a2b423a906bcdf559f291bf5d</sys_package><sys_policy/><sys_scope display_value="Lab AI Knowledge Companion">26a4fa2a2b423a906bcdf559f291bf5d</sys_scope><sys_update_name>sn_nowassist_skill_config_status_e704f8552bde76506bcdf559f291bf59</sys_update_name><sys_updated_by>richard.dunmow@snc</sys_updated_by><sys_updated_on>2026-01-06 14:22:14</sys_updated_on></sn_nowassist_skill_config_status></record_update>]]></payload>
+        <payload_hash>-1483095530</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>ae3b2c512b9e76506bcdf559f291bfb5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>richard.dunmow@snc</sys_created_by>
+        <sys_created_on>2026-01-06 14:22:14</sys_created_on>
+        <sys_id>6704f8552bde76506bcdf559f291bf5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19b93afdd540000001</sys_recorded_at>
+        <sys_updated_by>richard.dunmow@snc</sys_updated_by>
+        <sys_updated_on>2026-01-06 14:22:14</sys_updated_on>
+        <type>Now Assist Skill Config Status</type>
+        <update_guid>a304f855cede76508e6cadce7c32375d</update_guid>
+        <update_guid_history>a304f855cede76508e6cadce7c32375d:-1483095530</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">0f8d38d92b12b6506bcdf559f291bf16</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>richard.dunmow@snc</sys_created_by>
+        <sys_created_on>2026-01-06 15:03:44</sys_created_on>
+        <sys_db_object display_value="" name="sn_nowassist_skill_config_status">sn_nowassist_skill_config_status</sys_db_object>
+        <sys_id>94bba0ef2bce464badba28e23cc1dfb1</sys_id>
+        <sys_metadata>e704f8552bde76506bcdf559f291bf59</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Lab AI Knowledge Companion" source="x_snc_lab_ai_kno_0">26a4fa2a2b423a906bcdf559f291bf5d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Lab AI Knowledge Companion">26a4fa2a2b423a906bcdf559f291bf5d</sys_scope>
+        <sys_scope_delete display_value="">130e489d6c344ec08e433139d11dc400</sys_scope_delete>
+        <sys_update_name>sn_nowassist_skill_config_status_e704f8552bde76506bcdf559f291bf59</sys_update_name>
+        <sys_update_version display_value="sn_nowassist_skill_config_status_e704f8552bde76506bcdf559f291bf59">6704f8552bde76506bcdf559f291bf5e</sys_update_version>
+        <sys_updated_by>richard.dunmow@snc</sys_updated_by>
+        <sys_updated_on>2026-01-06 15:03:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_one_extend_eval_strategy">
+    <sys_one_extend_eval_strategy action="INSERT_OR_UPDATE">
+        <capability display_value="Summarise Suggest KB Article">ffeeb89d2b12b6506bcdf559f291bf6c</capability>
+        <default>true</default>
+        <name>Default</name>
+        <skill_config_id>ccfeb89d2b12b6506bcdf559f291bfac</skill_config_id>
+        <sys_class_name>sys_one_extend_eval_strategy</sys_class_name>
+        <sys_created_by>richard.dunmow@snc</sys_created_by>
+        <sys_created_on>2026-01-06 15:09:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>48feb89d2b12b6506bcdf559f291bff6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Lab AI Knowledge Companion" source="x_snc_lab_ai_kno_0">26a4fa2a2b423a906bcdf559f291bf5d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Lab AI Knowledge Companion">26a4fa2a2b423a906bcdf559f291bf5d</sys_scope>
+        <sys_update_name>sys_one_extend_eval_strategy_48feb89d2b12b6506bcdf559f291bff6</sys_update_name>
+        <sys_updated_by>richard.dunmow@snc</sys_updated_by>
+        <sys_updated_on>2026-01-06 15:09:48</sys_updated_on>
+    </sys_one_extend_eval_strategy>
+</record_update>

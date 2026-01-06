@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>richard.dunmow@snc</sys_created_by>
+        <sys_created_on>2026-01-06 15:10:14</sys_created_on>
+        <sys_id>ee0ffc9d2b12b6506bcdf559f291bf88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>summarise_suggest_kb_article.ccfeb89d2b12b6506bcdf559f291bfac.snc_internal</sys_name>
+        <sys_package display_value="Lab AI Knowledge Companion" source="x_snc_lab_ai_kno_0">26a4fa2a2b423a906bcdf559f291bf5d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Lab AI Knowledge Companion">26a4fa2a2b423a906bcdf559f291bf5d</sys_scope>
+        <sys_security_acl display_value="summarise_suggest_kb_article.ccfeb89d2b12b6506bcdf559f291bfac">0cfeb89d2b12b6506bcdf559f291bfbe</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_ee0ffc9d2b12b6506bcdf559f291bf88</sys_update_name>
+        <sys_updated_by>richard.dunmow@snc</sys_updated_by>
+        <sys_updated_on>2026-01-06 15:10:14</sys_updated_on>
+        <sys_user_role display_value="snc_internal" name="snc_internal">7fcaa702933002009c8579b4f47ffbde</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

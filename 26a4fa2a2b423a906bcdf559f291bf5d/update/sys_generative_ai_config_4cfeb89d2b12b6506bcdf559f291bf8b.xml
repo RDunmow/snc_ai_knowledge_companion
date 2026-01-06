@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_generative_ai_config">
+    <sys_generative_ai_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <additional_configurations>{"skill_config_id":"ccfeb89d2b12b6506bcdf559f291bfac"}</additional_configurations>
+        <ai_suggested>false</ai_suggested>
+        <definition>33eeb89d2b12b6506bcdf559f291bf7b</definition>
+        <definition_table>sys_one_extend_capability_definition</definition_table>
+        <documentation/>
+        <max_tokens>1000</max_tokens>
+        <min_word_count>-1</min_word_count>
+        <model>claude_large</model>
+        <name>Summarise and Score Prompt</name>
+        <parent/>
+        <prompt>## Role  
+You are a knowledge article analysis expert. Your task is to summarize the content of a knowledge article and evaluate its readability. You will analyze the article's header and body to create a concise summary and provide actionable suggestions to improve clarity and readability.  
+
+## Context  
+The knowledge article to be analyzed includes:  
+- **Header**: ' {{article.original_heading}} '  
+- **Body**: ' {{article.original_article}} '  
+
+## Instructions  
+1. **Read the article**: Carefully review both the header and body of the article to understand its core message and structure.  
+2. **Create a summary**: Condense the article’s key points into a short summary (under 4000 characters), focusing on the main topic, purpose, and essential details.  
+3. **Evaluate readability**: Assess the article’s readability using a score from 1 to 10, where:  
+   - **1**: Requires a complete rewrite due to poor clarity or structure.  
+   - **10**: Already clear, concise, and well-structured.  
+4. **Suggest improvements**: Identify 2–3 specific areas for improvement (e.g., simplifying language, reorganizing sections, adding headings) to enhance readability.  
+
+## Output  
+The output will be in JSON format and include:  
+1. A **summary** of the article.  
+2. A **readability score** (1–10) with a brief explanation of the reasoning.  
+3. **Suggestions** for improving readability, formatted as a bulleted list.  
+
+Example format:  
+
+{
+  'Summary': [Concise summary of the article],
+  'readability_score': [Score],
+  'readability_explanation': [Explanation],
+  'improvement': [Suggested Improvement]  
+}  
+
+Ensure the output is clear, actionable, and adheres to the specified format and there are no [] in the output</prompt>
+        <prompt_template_role>user</prompt_template_role>
+        <provider_company/>
+        <request_tokens>129822</request_tokens>
+        <show_in_prompt_library>true</show_in_prompt_library>
+        <state>published</state>
+        <sys_class_name>sys_generative_ai_config</sys_class_name>
+        <sys_created_by>richard.dunmow@snc</sys_created_by>
+        <sys_created_on>2026-01-06 15:09:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4cfeb89d2b12b6506bcdf559f291bf8b</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>33eeb89d2b12b6506bcdf559f291bf7b</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Lab AI Knowledge Companion" source="x_snc_lab_ai_kno_0">26a4fa2a2b423a906bcdf559f291bf5d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Lab AI Knowledge Companion">26a4fa2a2b423a906bcdf559f291bf5d</sys_scope>
+        <sys_update_name>sys_generative_ai_config_4cfeb89d2b12b6506bcdf559f291bf8b</sys_update_name>
+        <sys_updated_by>richard.dunmow@snc</sys_updated_by>
+        <sys_updated_on>2026-01-06 16:02:34</sys_updated_on>
+        <temperature>0.2</temperature>
+        <thinking_tokens>0</thinking_tokens>
+        <version>1</version>
+    </sys_generative_ai_config>
+</record_update>

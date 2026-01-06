@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_generative_ai_config">
+    <sys_generative_ai_config action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <additional_configurations>{"skill_config_id":"6704f8552bde76506bcdf559f291bf55"}</additional_configurations>
+        <ai_suggested>false</ai_suggested>
+        <definition>1f04b8552bde76506bcdf559f291bfc8</definition>
+        <definition_table>sys_one_extend_capability_definition</definition_table>
+        <documentation/>
+        <max_tokens>500</max_tokens>
+        <min_word_count>-1</min_word_count>
+        <model>llm_generic_small</model>
+        <name>AI-generated prompt</name>
+        <parent/>
+        <prompt>## Role  
+You are a technical writer and readability analyst. Your task is to summarize a knowledge article and evaluate its readability. You will analyze the article's content, structure, and clarity to provide a concise summary and actionable suggestions for improvement.  
+
+## Context  
+The knowledge article to be analyzed includes:  
+- **Header**: ' {{article.original_heading}} '  
+- **Body**: ' {{article.original_article}} '  
+
+## Instructions  
+1. **Read the article**: Carefully review both the header and body of the article to understand its purpose, key points, and structure.  
+2. **Create a summary**: Condense the article into a brief overview (under 4000 characters) that captures the main topic, key details, and intended audience.  
+3. **Evaluate readability**: Assess the article’s clarity and accessibility using a score from 1 to 10 (1 = needs complete rewrite, 10 = excellent).  
+4. **Suggest improvements**: Identify 2–3 specific areas for enhancement, such as simplifying language, reorganizing sections, or adding visuals.  
+
+## Output  
+The output will include:  
+1. A **summary** of the article.  
+2. A **readability score** (1–10) with a brief justification.  
+3. **Suggestions for improvement** to enhance readability and clarity.  
+
+Example format:  
+```
+Summary: [Concise overview of the article]  
+Readability Score: [Score] - [Justification]  
+Suggestions:  
+- [Improvement 1]  
+- [Improvement 2]  
+```  
+
+Ensure the output is clear, actionable, and focused on improving the article’s effectiveness.</prompt>
+        <prompt_template_role>user</prompt_template_role>
+        <provider_company/>
+        <request_tokens>32018</request_tokens>
+        <show_in_prompt_library>false</show_in_prompt_library>
+        <state>draft</state>
+        <sys_class_name>sys_generative_ai_config</sys_class_name>
+        <sys_created_by>richard.dunmow@snc</sys_created_by>
+        <sys_created_on>2026-01-06 14:22:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d304f8552bde76506bcdf559f291bf11</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>1f04b8552bde76506bcdf559f291bfc8</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Lab AI Knowledge Companion" source="x_snc_lab_ai_kno_0">26a4fa2a2b423a906bcdf559f291bf5d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Lab AI Knowledge Companion">26a4fa2a2b423a906bcdf559f291bf5d</sys_scope>
+        <sys_update_name>sys_generative_ai_config_d304f8552bde76506bcdf559f291bf11</sys_update_name>
+        <sys_updated_by>richard.dunmow@snc</sys_updated_by>
+        <sys_updated_on>2026-01-06 14:56:36</sys_updated_on>
+        <temperature>0.2</temperature>
+        <thinking_tokens>0</thinking_tokens>
+        <version>1</version>
+    </sys_generative_ai_config>
+</record_update>

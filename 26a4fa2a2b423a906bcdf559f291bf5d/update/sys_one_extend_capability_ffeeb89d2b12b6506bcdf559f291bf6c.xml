@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_one_extend_capability">
+    <sys_one_extend_capability action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Read the knowledge article body and header and provide a short summary in under 4000 characters as well as make suggestions to improve the readability of the article. Provide a readability score between 1 and 10, where 1 meaning this needs a complete rewrite and 10 means the article requires no further work.</description>
+        <external>true</external>
+        <metadata>{"isGuidedStep":false}</metadata>
+        <name>Summarise Suggest KB Article</name>
+        <short_description/>
+        <sys_class_name>sys_one_extend_capability</sys_class_name>
+        <sys_created_by>richard.dunmow@snc</sys_created_by>
+        <sys_created_on>2026-01-06 15:09:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ffeeb89d2b12b6506bcdf559f291bf6c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Summarise Suggest KB Article</sys_name>
+        <sys_package display_value="Lab AI Knowledge Companion" source="x_snc_lab_ai_kno_0">26a4fa2a2b423a906bcdf559f291bf5d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Lab AI Knowledge Companion">26a4fa2a2b423a906bcdf559f291bf5d</sys_scope>
+        <sys_update_name>sys_one_extend_capability_ffeeb89d2b12b6506bcdf559f291bf6c</sys_update_name>
+        <sys_updated_by>richard.dunmow@snc</sys_updated_by>
+        <sys_updated_on>2026-01-06 15:10:39</sys_updated_on>
+        <type>skill</type>
+    </sys_one_extend_capability>
+    <sys_translated_text action="delete_multiple" query="documentkey=ffeeb89d2b12b6506bcdf559f291bf6c"/>
+</record_update>
