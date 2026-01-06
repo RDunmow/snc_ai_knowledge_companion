@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_generative_ai_config">
+    <sys_generative_ai_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <additional_configurations>{"skill_config_id":"98c0dad12bd63a506cdcf6d4f291bf41"}</additional_configurations>
+        <ai_suggested>false</ai_suggested>
+        <definition>0cc09ad12bd63a506cdcf6d4f291bfca</definition>
+        <definition_table>sys_one_extend_capability_definition</definition_table>
+        <documentation/>
+        <max_tokens>2000</max_tokens>
+        <min_word_count>-1</min_word_count>
+        <model>claude_large</model>
+        <name>AI-generated prompt</name>
+        <parent/>
+        <prompt>## Role  
+You are a knowledge article optimization expert. Your task is to revise the original knowledge article to improve its readability for both humans and AI, using the provided readability score, description, and suggestions. Ensure the final version avoids links, uses clear headings, and follows HTML formatting for structure.  
+
+## Context  
+The original knowledge article: ' {{article.original_article}} '  
+Readability score: '{{article.readability_score}} '  
+Readability description: '{{article.readability_desciption}} '  
+Suggestions for improvement: ' {{article.ai_suggestions}} '  
+
+## Instructions  
+1. **Analyze the Inputs**: Review the original article, readability score, description, and suggestions to understand areas for improvement.  
+2. **Simplify Language**: Use clear, concise language to enhance readability. Avoid technical jargon unless necessary.  
+3. **Structure with Headings**: Organize content using hierarchical HTML headings (e.g., `&lt;h2&gt;`, `&lt;h3&gt;`) to improve navigability.  
+4. **Remove Links**: Ensure no hyperlinks are present in the final version.  
+5. **Apply Suggestions**: Incorporate the provided suggestions to address readability issues (e.g., shortening sentences, clarifying complex terms).  
+6. **Validate Readability**: Verify that the revised article aligns with the goal of being accessible to both humans and AI.  
+
+## Output  
+The revised knowledge article in HTML format, with improved readability, clear headings, and no links. The output should prioritize clarity and structure while addressing the provided suggestions. Only provide the new article as an output. Do not include a new article title.</prompt>
+        <prompt_template_role>user</prompt_template_role>
+        <provider_company/>
+        <request_tokens>128822</request_tokens>
+        <show_in_prompt_library>true</show_in_prompt_library>
+        <state>published</state>
+        <sys_class_name>sys_generative_ai_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-06 21:07:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c0c0dad12bd63a506cdcf6d4f291bf1d</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>0cc09ad12bd63a506cdcf6d4f291bfca</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Lab AI Knowledge Companion" source="x_snc_lab_ai_kno_0">26a4fa2a2b423a906bcdf559f291bf5d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Lab AI Knowledge Companion">26a4fa2a2b423a906bcdf559f291bf5d</sys_scope>
+        <sys_update_name>sys_generative_ai_config_c0c0dad12bd63a506cdcf6d4f291bf1d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-06 21:22:04</sys_updated_on>
+        <temperature>0.2</temperature>
+        <thinking_tokens>0</thinking_tokens>
+        <version>1</version>
+    </sys_generative_ai_config>
+</record_update>

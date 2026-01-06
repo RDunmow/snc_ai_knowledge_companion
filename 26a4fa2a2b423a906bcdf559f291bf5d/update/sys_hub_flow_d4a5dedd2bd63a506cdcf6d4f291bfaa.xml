@@ -1,0 +1,1031 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=362000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Create an updated Knowledge article using AI</description>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>create_new_knowledge_article_with_ai</internal_name>
+        <label_cache>[{"name":"Updated_1.current","label":"Trigger - Record Updated➛article Record","reference":"x_snc_lab_ai_kno_0_article","reference_display":"article","type":"reference","base_type":"reference","usedInstances":{"9a09940c-1891-4a93-a6d4-771137d0b765":["article"],"069c74e4-7ac8-4d75-aedd-a43e41aef2bd":["record"]},"attributes":{}},{"name":"9a09940c-1891-4a93-a6d4-771137d0b765.output.response","label":"1 - Execute Skill➛output➛response","type":"string","base_type":"string","usedInstances":{"069c74e4-7ac8-4d75-aedd-a43e41aef2bd":[null]}}]</label_cache>
+        <master_snapshot>490752152b1a3a506cdcf6d4f291bfab</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Create new Knowledge Article with Ai</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>8d0792152b1a3a506cdcf6d4f291bf0d</remote_trigger_id>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-06 21:28:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d4a5dedd2bd63a506cdcf6d4f291bfaa</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Create new Knowledge Article with Ai</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Lab AI Knowledge Companion" source="x_snc_lab_ai_kno_0">26a4fa2a2b423a906bcdf559f291bf5d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Lab AI Knowledge Companion">26a4fa2a2b423a906bcdf559f291bf5d</sys_scope>
+        <sys_update_name>sys_hub_flow_d4a5dedd2bd63a506cdcf6d4f291bfaa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-06 21:34:38</sys_updated_on>
+        <type>flow</type>
+        <updation_source/>
+        <version>2</version>
+        <version_record display_value="Created 2026-01-06 13:34:39">1d0792152b1a3a506cdcf6d4f291bf87</version_record>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=d4a5dedd2bd63a506cdcf6d4f291bfaa"/>
+    <sys_variable_value action="delete_multiple" query="document_key=d4a5dedd2bd63a506cdcf6d4f291bfaa"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_snc_lab_ai_kno_0_article">ai_statusCHANGESTOrewrite<item display_value="Rewrite" endquery="false" field="ai_status" goto="false" newquery="false" operator="CHANGESTO" or="false" value="rewrite"/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>false</on_insert>
+        <on_update>true</on_update>
+        <published_version/>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-06 21:34:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8d0792152b1a3a506cdcf6d4f291bf0d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Lab AI Knowledge Companion">26a4fa2a2b423a906bcdf559f291bf5d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-06 21:34:38</sys_updated_on>
+        <table>x_snc_lab_ai_kno_0_article</table>
+        <trigger_definition/>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>d4a5dedd2bd63a506cdcf6d4f291bfaa</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-06 21:34:38</sys_created_on>
+        <sys_id>c10792152b1a3a506cdcf6d4f291bf0f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-06 21:34:38</sys_updated_on>
+        <trigger display_value="">8d0792152b1a3a506cdcf6d4f291bf0d</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=d4a5dedd2bd63a506cdcf6d4f291bfaa^sys_idNOT INc10792152b1a3a506cdcf6d4f291bf0f"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=d4a5dedd2bd63a506cdcf6d4f291bfaa"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=d4a5dedd2bd63a506cdcf6d4f291bfaa^sys_idNOT IN1ca5dedd2bd63a506cdcf6d4f291bfab"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>d4a5dedd2bd63a506cdcf6d4f291bfaa</id>
+        <name>Create new Knowledge Article with Ai</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-06 21:28:34</sys_created_on>
+        <sys_id>1ca5dedd2bd63a506cdcf6d4f291bfab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-06 21:28:34</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=1ca5dedd2bd63a506cdcf6d4f291bfab"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=d4a5dedd2bd63a506cdcf6d4f291bfaa^sys_idNOT IN7da51a112b1a3a506cdcf6d4f291bf91,b5a51a112b1a3a506cdcf6d4f291bff2,b9a51a112b1a3a506cdcf6d4f291bfda"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Create new Knowledge Article with Ai">d4a5dedd2bd63a506cdcf6d4f291bfaa</model>
+        <model_id>d4a5dedd2bd63a506cdcf6d4f291bfaa</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_d4a5dedd2bd63a506cdcf6d4f291bfaa</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-06 21:28:40</sys_created_on>
+        <sys_id>7da51a112b1a3a506cdcf6d4f291bf91</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Lab AI Knowledge Companion">26a4fa2a2b423a906bcdf559f291bf5d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-06 21:34:36</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=7da51a112b1a3a506cdcf6d4f291bf91"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Create new Knowledge Article with Ai">d4a5dedd2bd63a506cdcf6d4f291bfaa</model>
+        <model_id>d4a5dedd2bd63a506cdcf6d4f291bfaa</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_d4a5dedd2bd63a506cdcf6d4f291bfaa</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-06 21:28:40</sys_created_on>
+        <sys_id>b5a51a112b1a3a506cdcf6d4f291bff2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Lab AI Knowledge Companion">26a4fa2a2b423a906bcdf559f291bf5d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-06 21:28:40</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b5a51a112b1a3a506cdcf6d4f291bff2"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Create new Knowledge Article with Ai">d4a5dedd2bd63a506cdcf6d4f291bfaa</model>
+        <model_id>d4a5dedd2bd63a506cdcf6d4f291bfaa</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_d4a5dedd2bd63a506cdcf6d4f291bfaa</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-06 21:28:40</sys_created_on>
+        <sys_id>b9a51a112b1a3a506cdcf6d4f291bfda</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Lab AI Knowledge Companion">26a4fa2a2b423a906bcdf559f291bf5d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-06 21:34:35</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b9a51a112b1a3a506cdcf6d4f291bfda"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=d4a5dedd2bd63a506cdcf6d4f291bfaa"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=d4a5dedd2bd63a506cdcf6d4f291bfaa"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=d4a5dedd2bd63a506cdcf6d4f291bfaa^sys_idNOT INeda59edd2bd63a506cdcf6d4f291bf96"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Create new Knowledge Article with Ai">d4a5dedd2bd63a506cdcf6d4f291bfaa</flow>
+        <generation_source/>
+        <name>Updated</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-06 21:28:38</sys_created_on>
+        <sys_id>eda59edd2bd63a506cdcf6d4f291bf96</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-06 21:34:36</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs>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</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=d4a5dedd2bd63a506cdcf6d4f291bfaa^sys_idNOT IN27e556512b1a3a506cdcf6d4f291bf1b,c74656912b1a3a506cdcf6d4f291bf64"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Execute Skill">30468d977f921210f465c3b76d8665c1</action_type>
+        <action_type_parent display_value="Execute Skill">d88205df7f521210f465c3b76d866563</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Create new Knowledge Article with Ai">d4a5dedd2bd63a506cdcf6d4f291bfaa</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-06 21:29:53</sys_created_on>
+        <sys_id>27e556512b1a3a506cdcf6d4f291bf1b</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Lab AI Knowledge Companion">26a4fa2a2b423a906bcdf559f291bf5d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-06 21:34:36</sys_updated_on>
+        <ui_id>9a09940c-1891-4a93-a6d4-771137d0b765</ui_id>
+        <updation_source/>
+        <values>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</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=27e556512b1a3a506cdcf6d4f291bf1b"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Create new Knowledge Article with Ai">d4a5dedd2bd63a506cdcf6d4f291bfaa</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-06 21:31:29</sys_created_on>
+        <sys_id>c74656912b1a3a506cdcf6d4f291bf64</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Lab AI Knowledge Companion">26a4fa2a2b423a906bcdf559f291bf5d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-06 21:34:36</sys_updated_on>
+        <ui_id>069c74e4-7ac8-4d75-aedd-a43e41aef2bd</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1YzW4bNxB+FWLP2u2u5CiycgrgGMihcZGkuSQpQXG5NmGKZEmuLVUQkHsfoUAfrk/SIZeUZMtO1oaR/kA2YIvD+flm5iNntR9XGa+zaXbE6rI6rsZ0VI1Gw7IcTo6q2Xg0q4b1iDBWZYNMkjkDTcOoMjWsr4hovWC1+lnXxLEaVwVtjWHSrdewX3OrBVl+iGogoRdc1LCfTT9+HmSaGPDomMmmq1tbbqkZFmTGBBieKNrOwSl6fQI++qJN1m8T3NvwfQxY19E75l4IWx5PVQ4ytnBM1gzCNURYNsjmREKayiyzqTMtCAwj9ZkUy43GBZeuy3ROFpb/Bv6PSq/XMEiNxipsljhWKBVHccrOtONKdhJHZiJVTol2Lt90Kfjasoa0wu3UtrXgj2kP2YPoEDbvLtT12xTvlMuQXUQrFCVisyLOGT5rHbO+HUywUJQ50ZrLc6yNuuLBGKDMi3MBi6IR6hpiWn4uC0I97gIKRIpTkJ8E8QdiuE/iR3ADxuuQPP619XG7NCJgHHIOCePQKFC11HDtXoLjKxZhrgeRrrNnXyMAPd72e8fnlrILbCX1BMOE40upcImJcZwKts/b7cbj6PveA0BvOgB9wd8wvieZSOAbssjfZ0/G38k/xN+I6D9G4G/Rthx+9d7a6XRgqt2hLBDVsGvDHXQ1kfVTW5ajOvylGnnoueNyOafMKOVmUJ/LqJLBr//UmVCriURUEGvTvjfGQGmfiuZCfMqQdctNiHQopohLwSV7AftUScAC9z4PjU6aIWPYDnC8q5BB2l2tmho7Q6RtlJlPR8OGPn9+PMnpkIzzo3FF8smoOc5ZWU2aalZNypKu1/3AQyiECKVMO7sNgZtWhtZawARAPYUWybD8zmnEHjHreJ1cnYDoJ/D/uu6TZoCSR8zhP4F2mG+ZeivbRwnALdwGqFLCcZ1vwZILHIXvlb6tFlEl3Qrl6NWCUTiS6N2l704XHqnW6dallWFWQ3dYL3TWAfWT5l6AzvQHb9vDFzFGXfevebiScwpHxD3U6Eakv/784x6cO4KiKP5liB5WW7gUk/dNfx8bAu50pyTaknD/bOOGUFIz3Occ+iO/i/debwieC7abMAAEZ6CP/EjoyphcnMEQQBtVlPwgzeklMwiEaI+rUPTuHMCHvkegu3vzbsLkHM7bHRZ3X9tShUs7NvzL77270VX/YR3bF+hu9QtMMTjCro0pwSjWAp6h7njqOoy7w7g7jLvDuDuMu8O4+x+Ou0e+S2DggEBNuzE56P2tMjk45UzU9o6vmellQgyAr2KAzQuxJ3ujUI3L8HN4L/aE78U+/w2Mf0nqyBUAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=c74656912b1a3a506cdcf6d4f291bf64"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=d4a5dedd2bd63a506cdcf6d4f291bfaa"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=d4a5dedd2bd63a506cdcf6d4f291bfaa"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=d4a5dedd2bd63a506cdcf6d4f291bfaa^sys_idNOT INf48696912b1a3a506cdcf6d4f291bf01"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>d4a5dedd2bd63a506cdcf6d4f291bfaa</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{9a09940c-1891-4a93-a6d4-771137d0b765.output.response}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-06 21:32:25</sys_created_on>
+        <sys_id>f48696912b1a3a506cdcf6d4f291bf01</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Lab AI Knowledge Companion">26a4fa2a2b423a906bcdf559f291bf5d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-06 21:32:25</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>32fc7798-c2a6-461a-83f9-e018f1b1800c</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=d4a5dedd2bd63a506cdcf6d4f291bfaa"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_d4a5dedd2bd63a506cdcf6d4f291bfaa</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-06 21:28:40</sys_created_on>
+        <sys_id>b9a51a112b1a3a506cdcf6d4f291bfee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Lab AI Knowledge Companion" source="x_snc_lab_ai_kno_0">26a4fa2a2b423a906bcdf559f291bf5d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Lab AI Knowledge Companion">26a4fa2a2b423a906bcdf559f291bf5d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-06 21:28:40</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_d4a5dedd2bd63a506cdcf6d4f291bfaa</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-06 21:28:40</sys_created_on>
+        <sys_id>bda51a112b1a3a506cdcf6d4f291bfd6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Lab AI Knowledge Companion" source="x_snc_lab_ai_kno_0">26a4fa2a2b423a906bcdf559f291bf5d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Lab AI Knowledge Companion">26a4fa2a2b423a906bcdf559f291bf5d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-06 21:28:40</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_d4a5dedd2bd63a506cdcf6d4f291bfaa</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-06 21:28:40</sys_created_on>
+        <sys_id>fda51a112b1a3a506cdcf6d4f291bffa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Lab AI Knowledge Companion" source="x_snc_lab_ai_kno_0">26a4fa2a2b423a906bcdf559f291bf5d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Lab AI Knowledge Companion">26a4fa2a2b423a906bcdf559f291bf5d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-06 21:28:40</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_d4a5dedd2bd63a506cdcf6d4f291bfaa"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_d4a5dedd2bd63a506cdcf6d4f291bfaa"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Create an updated Knowledge article using AI</description>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>create_new_knowledge_article_with_ai</internal_name>
+        <label_cache>[{"name":"Updated_1.current","label":"Trigger - Record Updated➛article Record","reference":"x_snc_lab_ai_kno_0_article","reference_display":"article","type":"reference","base_type":"reference","usedInstances":{"9a09940c-1891-4a93-a6d4-771137d0b765":["article"],"069c74e4-7ac8-4d75-aedd-a43e41aef2bd":["record"]},"attributes":{}},{"name":"9a09940c-1891-4a93-a6d4-771137d0b765.output.response","label":"1 - Execute Skill➛output➛response","type":"string","base_type":"string","usedInstances":{"069c74e4-7ac8-4d75-aedd-a43e41aef2bd":[null]}}]</label_cache>
+        <master>true</master>
+        <name>Create new Knowledge Article with Ai</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Create new Knowledge Article with Ai">d4a5dedd2bd63a506cdcf6d4f291bfaa</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-06 21:34:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>490752152b1a3a506cdcf6d4f291bfab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Lab AI Knowledge Companion">26a4fa2a2b423a906bcdf559f291bf5d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-06 21:34:37</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=490752152b1a3a506cdcf6d4f291bfab"/>
+    <sys_variable_value action="delete_multiple" query="document_key=490752152b1a3a506cdcf6d4f291bfab"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=490752152b1a3a506cdcf6d4f291bfab"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=490752152b1a3a506cdcf6d4f291bfab^sys_idNOT IN850752152b1a3a506cdcf6d4f291bfac"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>490752152b1a3a506cdcf6d4f291bfab</id>
+        <name>Create new Knowledge Article with Ai</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-06 21:34:37</sys_created_on>
+        <sys_id>850752152b1a3a506cdcf6d4f291bfac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-06 21:34:37</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=850752152b1a3a506cdcf6d4f291bfac"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=490752152b1a3a506cdcf6d4f291bfab^sys_idNOT IN010752152b1a3a506cdcf6d4f291bfae,050752152b1a3a506cdcf6d4f291bfcd,c10752152b1a3a506cdcf6d4f291bfc1"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Create new Knowledge Article with Ai">490752152b1a3a506cdcf6d4f291bfab</model>
+        <model_id>490752152b1a3a506cdcf6d4f291bfab</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_490752152b1a3a506cdcf6d4f291bfab</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-06 21:34:37</sys_created_on>
+        <sys_id>010752152b1a3a506cdcf6d4f291bfae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Lab AI Knowledge Companion">26a4fa2a2b423a906bcdf559f291bf5d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-06 21:34:37</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=010752152b1a3a506cdcf6d4f291bfae"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Create new Knowledge Article with Ai">490752152b1a3a506cdcf6d4f291bfab</model>
+        <model_id>490752152b1a3a506cdcf6d4f291bfab</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_490752152b1a3a506cdcf6d4f291bfab</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-06 21:34:37</sys_created_on>
+        <sys_id>050752152b1a3a506cdcf6d4f291bfcd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Lab AI Knowledge Companion">26a4fa2a2b423a906bcdf559f291bf5d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-06 21:34:37</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=050752152b1a3a506cdcf6d4f291bfcd"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Create new Knowledge Article with Ai">490752152b1a3a506cdcf6d4f291bfab</model>
+        <model_id>490752152b1a3a506cdcf6d4f291bfab</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_490752152b1a3a506cdcf6d4f291bfab</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-06 21:34:37</sys_created_on>
+        <sys_id>c10752152b1a3a506cdcf6d4f291bfc1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Lab AI Knowledge Companion">26a4fa2a2b423a906bcdf559f291bf5d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-06 21:34:37</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=c10752152b1a3a506cdcf6d4f291bfc1"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=490752152b1a3a506cdcf6d4f291bfab"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=490752152b1a3a506cdcf6d4f291bfab"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=490752152b1a3a506cdcf6d4f291bfab^sys_idNOT IN0d0752152b1a3a506cdcf6d4f291bfe7"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Create new Knowledge Article with Ai">490752152b1a3a506cdcf6d4f291bfab</flow>
+        <generation_source/>
+        <name>Updated</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-06 21:34:37</sys_created_on>
+        <sys_id>0d0752152b1a3a506cdcf6d4f291bfe7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-06 21:34:37</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs>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</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=490752152b1a3a506cdcf6d4f291bfab^sys_idNOT IN490752152b1a3a506cdcf6d4f291bfe4,c10752152b1a3a506cdcf6d4f291bfe2"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Create new Knowledge Article with Ai">490752152b1a3a506cdcf6d4f291bfab</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-06 21:34:37</sys_created_on>
+        <sys_id>490752152b1a3a506cdcf6d4f291bfe4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Lab AI Knowledge Companion">26a4fa2a2b423a906bcdf559f291bf5d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-06 21:34:37</sys_updated_on>
+        <ui_id>069c74e4-7ac8-4d75-aedd-a43e41aef2bd</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Y3W7bNhR+FULXlifZaep4V0OzAAW6Zmi63LQdQVNUQoQmOZJK7BkGdr9HGLCH25PskCJlL3ZbeSiGZbMDOOb543f+eCS+W2W8yqbZCauK8qw8peNyPB4VxWhyUs5Ox7NyVI0JY2U2yCSZM5A0jCpTwfqeiMYTVqsfdEUcq3A5pI0xTLr1GvgVt1qQ5XUUAwq95aICfjZ992GQaWLAomMmm64esfpCEmTGBIi+SZgeY3RL7deVos0ccGGeiK+i5nnkoJfnwAElD6csBhlbOCYrBkBqIiwbZHMiwUtlltnUmQYIhpHqUoplJ3HLpWsdnZOF5T/DzieFl6sZeEZjELoljgFqyfU5ceQKLFPXmC5eilNm25hUrCaNcC+2aa3ApXZcyVbFkZlI2ko0c/m6jUjWGdjKR2MBBNPeT4+8dau+ulUPbxLICy5DSKKLQlEiuhVxzvBZ4zycVcYECzGeE625vMHaqHselAHKfHgjYDGshXqAPS2/kUNCPe4hRJUML4B+HsjXxHDvxHdgBpTXg8wu7QtBrN24AjHEPzUeSetYdAGHKIQQ4FAJXpkart03sNU9i8DXg1j0s2efqjB6timoLZubwl9gKymGGsSE4zupcIGJcZwKtlv9G8ZhTdADYmqCtyH1+yHHPtihvdrWRa9bRuyCZ1+sCyZPqQuiG0++DT5X/MXok8frViWFerdbhQ/lbtiD4Q6KI5X8+6YoxlX4php5Z3LH5XJOmVHKzSBid1Ekgz//q1WhVhOJqHcs8b0yhsbwrmguxPsMWbfstkitNUVcCi7Z18CnSgIWmEE8pD5JBo+BHeB4U8GDxF2t6go7Q6StlZlPx6OaPn9+NsnpiJzmJ6clySfj+ixnRTmpy1k5KQq6XvcDD1shRChl2tnNFrhuZEi2BUwA1BfVIikW/7AbMUfMOl4lU777vgf7L6s+bgYoecQc/hNIh/mcqteyfYQA3MJ1QJUSjut8A5bc4kh8q/RjsYgqyZYoR98uGIUmRVd3Pjvt9kg1TjcurQyzGrLDeqGzDko/Se5s0Kp+5XV72CLGqIf+MQ9Hfk6hRdyhSn/Z6Y/ff/sIzi3CcDj8lyE6LLZwKCbrXX7/7hZwyjsl0aYId3sb14SSiuE+fehbfhvvR60heLrYMGEkCM5AHvkh0YYxmbiEIYA6UZTsIM3pHTMIiGinViHobR/Aj74t0J69eTthcg79tkdj/7EtVTi0Y8J/+bV3NtroH5axXYJuVz/CFIMWdk10CYazFvAktufZ7TjujuPuOO6O4+447o7j7j847g67kejx3phuJC44E5Xd8yKZriMYYCCO4fbF8tGVRGSi68jsLue+2L1EeVqEzxO6nfjf3NF9+BORdwGdmhYAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=490752152b1a3a506cdcf6d4f291bfe4"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Execute Skill">30468d977f921210f465c3b76d8665c1</action_type>
+        <action_type_parent display_value="Execute Skill">d88205df7f521210f465c3b76d866563</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>30468d977f921210f465c3b76d8665c1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Create new Knowledge Article with Ai">490752152b1a3a506cdcf6d4f291bfab</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-06 21:34:37</sys_created_on>
+        <sys_id>c10752152b1a3a506cdcf6d4f291bfe2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Lab AI Knowledge Companion">26a4fa2a2b423a906bcdf559f291bf5d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-06 21:34:37</sys_updated_on>
+        <ui_id>9a09940c-1891-4a93-a6d4-771137d0b765</ui_id>
+        <updation_source/>
+        <values>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</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=c10752152b1a3a506cdcf6d4f291bfe2"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=490752152b1a3a506cdcf6d4f291bfab"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=490752152b1a3a506cdcf6d4f291bfab"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=490752152b1a3a506cdcf6d4f291bfab^sys_idNOT INcd0752152b1a3a506cdcf6d4f291bfe7"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>490752152b1a3a506cdcf6d4f291bfab</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{9a09940c-1891-4a93-a6d4-771137d0b765.output.response}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-06 21:34:37</sys_created_on>
+        <sys_id>cd0752152b1a3a506cdcf6d4f291bfe7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Lab AI Knowledge Companion">26a4fa2a2b423a906bcdf559f291bf5d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-06 21:34:37</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>32fc7798-c2a6-461a-83f9-e018f1b1800c</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=490752152b1a3a506cdcf6d4f291bfab"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_490752152b1a3a506cdcf6d4f291bfab</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-06 21:34:37</sys_created_on>
+        <sys_id>090752152b1a3a506cdcf6d4f291bfc9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Lab AI Knowledge Companion" source="x_snc_lab_ai_kno_0">26a4fa2a2b423a906bcdf559f291bf5d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Lab AI Knowledge Companion">26a4fa2a2b423a906bcdf559f291bf5d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-06 21:34:37</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_490752152b1a3a506cdcf6d4f291bfab</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-06 21:34:37</sys_created_on>
+        <sys_id>c10752152b1a3a506cdcf6d4f291bfd5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Lab AI Knowledge Companion" source="x_snc_lab_ai_kno_0">26a4fa2a2b423a906bcdf559f291bf5d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Lab AI Knowledge Companion">26a4fa2a2b423a906bcdf559f291bf5d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-06 21:34:37</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_490752152b1a3a506cdcf6d4f291bfab</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-06 21:34:37</sys_created_on>
+        <sys_id>c50752152b1a3a506cdcf6d4f291bfbd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Lab AI Knowledge Companion" source="x_snc_lab_ai_kno_0">26a4fa2a2b423a906bcdf559f291bf5d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Lab AI Knowledge Companion">26a4fa2a2b423a906bcdf559f291bf5d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-06 21:34:37</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_490752152b1a3a506cdcf6d4f291bfab"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_490752152b1a3a506cdcf6d4f291bfab"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>d4a5dedd2bd63a506cdcf6d4f291bfaa</sys_id>
+        <latest_snapshot>490752152b1a3a506cdcf6d4f291bfab</latest_snapshot>
+        <compiler_build/>
+        <version_record/>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=d4a5dedd2bd63a506cdcf6d4f291bfaa^sys_idNOT IN850792152b1a3a506cdcf6d4f291bf11"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.Every</binding_strategy>
+        <plan/>
+        <plan_id>d4a5dedd2bd63a506cdcf6d4f291bfaa</plan_id>
+        <snapshot>490752152b1a3a506cdcf6d4f291bfab</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-06 21:34:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>850792152b1a3a506cdcf6d4f291bf11</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-06 21:34:38</sys_updated_on>
+        <trigger display_value="">8d0792152b1a3a506cdcf6d4f291bf0d</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=d4a5dedd2bd63a506cdcf6d4f291bfaa"/>
+</record_update>

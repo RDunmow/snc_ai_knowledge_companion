@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_agent_access_role_configuration">
+    <sys_agent_access_role_configuration action="INSERT_OR_UPDATE">
+        <action>limit_to_roles</action>
+        <agent>98c0dad12bd63a506cdcf6d4f291bf41</agent>
+        <agent_table>sn_nowassist_skill_config</agent_table>
+        <allow_all_session_roles>false</allow_all_session_roles>
+        <description/>
+        <name>Recreate Knowledge Article</name>
+        <role_list name="x_snc_lab_ai_kno_0.admin">baa4fa2a2b423a906bcdf559f291bfac</role_list>
+        <sys_class_name>sys_agent_access_role_configuration</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-06 21:07:17</sys_created_on>
+        <sys_id>ecc0dad12bd63a506cdcf6d4f291bf89</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Recreate Knowledge Article</sys_name>
+        <sys_package display_value="Lab AI Knowledge Companion" source="x_snc_lab_ai_kno_0">26a4fa2a2b423a906bcdf559f291bf5d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Lab AI Knowledge Companion">26a4fa2a2b423a906bcdf559f291bf5d</sys_scope>
+        <sys_update_name>sys_agent_access_role_configuration_ecc0dad12bd63a506cdcf6d4f291bf89</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-06 21:07:17</sys_updated_on>
+    </sys_agent_access_role_configuration>
+</record_update>

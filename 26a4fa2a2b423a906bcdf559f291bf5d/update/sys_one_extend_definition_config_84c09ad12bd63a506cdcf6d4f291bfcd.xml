@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_one_extend_definition_config">
+    <sys_one_extend_definition_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <capability display_value="Recreate Knowledge Article">73b09ad12bd63a506cdcf6d4f291bf8a</capability>
+        <default>true</default>
+        <definition display_value="Recreate Knowledge Article (AWS Claude - Amazon Bedrock Chat Completions)">0cc09ad12bd63a506cdcf6d4f291bfca</definition>
+        <enable_large_input_support>false</enable_large_input_support>
+        <sys_class_name>sys_one_extend_definition_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-06 21:07:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>84c09ad12bd63a506cdcf6d4f291bfcd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Lab AI Knowledge Companion" source="x_snc_lab_ai_kno_0">26a4fa2a2b423a906bcdf559f291bf5d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Lab AI Knowledge Companion">26a4fa2a2b423a906bcdf559f291bf5d</sys_scope>
+        <sys_update_name>sys_one_extend_definition_config_84c09ad12bd63a506cdcf6d4f291bfcd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-06 21:07:15</sys_updated_on>
+    </sys_one_extend_definition_config>
+</record_update>

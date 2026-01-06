@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_gen_ai_feature_mapping">
+    <sys_gen_ai_feature_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <customer_updatable>true</customer_updatable>
+        <default_tier>false</default_tier>
+        <document>73b09ad12bd63a506cdcf6d4f291bf8a</document>
+        <document_table>sys_one_extend_capability</document_table>
+        <feature_name>Recreate Knowledge Article</feature_name>
+        <licensable>true</licensable>
+        <metadata/>
+        <skip_on_group_call>false</skip_on_group_call>
+        <sys_class_name>sys_gen_ai_feature_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-06 21:07:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>40c09ad12bd63a506cdcf6d4f291bf90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Recreate Knowledge Article</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Lab AI Knowledge Companion" source="x_snc_lab_ai_kno_0">26a4fa2a2b423a906bcdf559f291bf5d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Lab AI Knowledge Companion">26a4fa2a2b423a906bcdf559f291bf5d</sys_scope>
+        <sys_update_name>sys_gen_ai_feature_mapping_40c09ad12bd63a506cdcf6d4f291bf90</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-06 21:07:14</sys_updated_on>
+        <tier/>
+    </sys_gen_ai_feature_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=40c09ad12bd63a506cdcf6d4f291bf90"/>
+</record_update>
