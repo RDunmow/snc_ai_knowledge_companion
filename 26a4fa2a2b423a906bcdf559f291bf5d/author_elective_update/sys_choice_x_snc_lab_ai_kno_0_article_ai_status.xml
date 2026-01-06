@@ -39,38 +39,19 @@
             <element>ai_status</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Summaries</label>
+            <label>Summarise &amp; Suggest</label>
             <language>en</language>
             <name>x_snc_lab_ai_kno_0_article</name>
             <sequence>1</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-01-05 20:35:07</sys_created_on>
+            <sys_created_on>2026-01-06 08:29:15</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-01-05 20:35:07</sys_updated_on>
-            <value>summaries</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>ai_status</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Read and Suggest</label>
-            <language>en</language>
-            <name>x_snc_lab_ai_kno_0_article</name>
-            <sequence>2</sequence>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-01-05 20:35:07</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-01-05 20:35:07</sys_updated_on>
-            <value>read_and_suggest</value>
+            <sys_updated_on>2026-01-06 08:29:15</sys_updated_on>
+            <value>summarise_suggest</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -80,15 +61,15 @@
             <label>Rewrite</label>
             <language>en</language>
             <name>x_snc_lab_ai_kno_0_article</name>
-            <sequence>3</sequence>
+            <sequence>2</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-01-05 20:35:07</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-01-05 20:35:07</sys_updated_on>
+            <sys_updated_on>2026-01-06 08:29:15</sys_updated_on>
             <value>rewrite</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -99,15 +80,15 @@
             <label>Complete</label>
             <language>en</language>
             <name>x_snc_lab_ai_kno_0_article</name>
-            <sequence>4</sequence>
+            <sequence>3</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-01-05 20:35:07</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-01-05 20:35:07</sys_updated_on>
+            <sys_updated_on>2026-01-06 08:29:15</sys_updated_on>
             <value>complete</value>
         </sys_choice>
     </sys_choice>

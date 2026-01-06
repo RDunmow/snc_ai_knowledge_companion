@@ -7,11 +7,10 @@
         <element label="AI Article Summary" max_length="1000" name="ai_article_summary" type="string"/>
         <element choice="3" label="AI Status" max_length="40" name="ai_status" type="choice">
             <choice>
+                <element inactive_on_update="false" label="Summarise &amp; Suggest" sequence="1" value="summarise_suggest"/>
                 <element inactive_on_update="false" label="New" sequence="0" value="new"/>
-                <element inactive_on_update="false" label="Complete" sequence="4" value="complete"/>
-                <element inactive_on_update="false" label="Read and Suggest" sequence="2" value="read_and_suggest"/>
-                <element inactive_on_update="false" label="Rewrite" sequence="3" value="rewrite"/>
-                <element inactive_on_update="false" label="Summaries" sequence="1" value="summaries"/>
+                <element inactive_on_update="false" label="Complete" sequence="3" value="complete"/>
+                <element inactive_on_update="false" label="Rewrite" sequence="2" value="rewrite"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
