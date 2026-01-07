@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_mcp_ai_skill_tool_definition">
+    <sn_mcp_ai_skill_tool_definition action="INSERT_OR_UPDATE">
+        <category>ai_skill</category>
+        <description>Create a new version of the Knowledge article using the original article, the readability score, readability description and the suggestions on how to make the knowledge article better. The article needs to be easy to read for Humans and AI, so avoid the use of links. Also make headings clear. Use HTML formatting to make sure the article is easy to read.</description>
+        <label>Recreate Knowledge Article</label>
+        <name>x_snc_lab_ai_kno_0.recreate_knowledge_article</name>
+        <servers/>
+        <sys_class_name>sn_mcp_ai_skill_tool_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-07 08:00:15</sys_created_on>
+        <sys_id>6d36ac693b5e76506456f2aaa4e45abf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Recreate Knowledge Article</sys_name>
+        <sys_package display_value="Lab AI Knowledge Companion" source="x_snc_lab_ai_kno_0">26a4fa2a2b423a906bcdf559f291bf5d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Lab AI Knowledge Companion">26a4fa2a2b423a906bcdf559f291bf5d</sys_scope>
+        <sys_update_name>sn_mcp_ai_skill_tool_definition_6d36ac693b5e76506456f2aaa4e45abf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-07 08:00:15</sys_updated_on>
+        <tool display_value="Recreate Knowledge Article">98c0dad12bd63a506cdcf6d4f291bf41</tool>
+    </sn_mcp_ai_skill_tool_definition>
+</record_update>
